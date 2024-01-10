@@ -1,0 +1,11 @@
+[package]
+name = "smiletondi/astro-static-site-9d9"
+version = "0.1.0"
+description = "wasmer-tests/wasmer-edge-astro-sample website"
+repository = "https://github.com/smiletondi/astro-static-site-9d9"
+
+[dependencies]
+"wasmer/static-web-server" = "*"
+
+[fs]
+public = "dist"
